@@ -16,6 +16,7 @@ My fully featured vim configuration
 - [ ] autocomplete for C/C++/Arduino
 - [ ] autocomplete for bash
 - [ ] autocomplete for Python
+- [ ] [Gist](https://github.com/mattn/gist-vim)
 - [ ] NerdCommander
 - [ ] NERDtree
 - [ ] syntastic
