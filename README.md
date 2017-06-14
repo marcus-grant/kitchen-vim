@@ -13,12 +13,22 @@ My fully featured vim configuration
 - [ ] keymap.vim
 - [ ] a plugin list that works with whatever plugin manager
 - [ ] code completion plugin
-- [ ] autocomplete for C/C++/Arduino
-- [ ] autocomplete for bash
 - [ ] autocomplete for Python
+- [ ] autocomplete for BASH
+- [ ] autocomplete for Flask
+- [ ] autocomplete for Rust
+- [ ] autocomplete for C/C++/Arduino
+- [ ] autocomplete for HTML/CSS
+- [ ] autocomplete for JS
+- [ ] autocomplete for Django
+- [ ] autocomplete for Node
+- [ ] autocomplete for React
 - [ ] [Gist](https://github.com/mattn/gist-vim)
 - [ ] NerdCommander
 - [ ] NERDtree
 - [ ] syntastic
 - [ ] [PlatformIO](http://docs.platformio.org/en/latest/ide/vim.html)
 - [ ] some powerline plugin with at least file, git, env
+- [ ] Better tmux integration
+- [ ] Better Jupyter integration
+
