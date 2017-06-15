@@ -1,4 +1,4 @@
-# Kitchen Vimk
+# VImdependant
 
 My fully featured vim configuration
 
