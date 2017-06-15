@@ -6,6 +6,8 @@
 " NerdTree - the vim file viewer
 Plugin 'scrooloose/nerdtree'
 
+" SimplyFold - proper python code folding
+Plugin 'tmhedberg/SimpylFold'
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""

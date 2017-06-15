@@ -25,6 +25,14 @@ noremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
 
+" Remap za for toggling a fold to '+'
+" NOTE still deciding best single key for folding
+" vnoremap <=> za
+
+" Remap space to command prompt ie ':'
+noremap <space> :
+
+
 " Quicksave command
 " I think I'll wait on this one
 " noremap <C-Z> :update<CR>
