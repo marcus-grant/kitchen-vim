@@ -94,6 +94,8 @@ function generate-main-vim-file()
   echo "\" Used to load and execute first commands and load other partial --" >> $1
   echo "\" -- vim files that are divided by purpose" >> $1
   echo "" >> $1
+  echo "set rtp+=$script_path" >> $1
+  echo "" >> $1
   echo "\"\"\"\"\"\"\" Sourced vim files - vundle must go first" >> $1
   echo ":so $vundle_start_config_path" >> $1
 
