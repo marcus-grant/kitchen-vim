@@ -3,7 +3,7 @@
 My fully featured vim configuration
 
 ## TO-DOs
-- [ ] Plugin manager
+- [x] Plugin manager
 - [ ] Basic remaps and configs from [here](http://marcgg.com/blog/2016/03/01/vimrc-example/)
 - [ ] install.sh
 - [ ] main.vimrc that sources different `*.vim` files for different purposes
@@ -31,4 +31,3 @@ My fully featured vim configuration
 - [ ] some powerline plugin with at least file, git, env
 - [ ] Better tmux integration
 - [ ] Better Jupyter integration
-
