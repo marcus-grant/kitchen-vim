@@ -7,6 +7,7 @@ My fully featured vim configuration
 - [x] Plugin manager
 - [x] main.vim that sources different `*.vim` files for different purposes
 - [x] colors folder with colorscheme files
+- [x] Folding, including SimplyFold for Python and map f key as fold toggle
 - [ ] Basic remaps and configs from [here](http://marcgg.com/blog/2016/03/01/vimrc-example/)
 - [ ] basic.vim
 - [ ] appearance.vim

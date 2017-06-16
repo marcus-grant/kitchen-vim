@@ -9,6 +9,10 @@ Plugin 'scrooloose/nerdtree'
 " SimplyFold - proper python code folding
 Plugin 'tmhedberg/SimpylFold'
 
+" lightline - minimal status/tabline
+" https://github.com/itchyny/lightline.vim
+Plugin 'itchyny/lightline.vim'
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line

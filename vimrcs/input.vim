@@ -27,10 +27,17 @@ inoremap <C-n> :nohl<CR>
 
 " Remap za for toggling a fold to '+'
 " NOTE still deciding best single key for folding
-" vnoremap <=> za
+nnoremap f za
 
 " Remap space to command prompt ie ':'
 noremap <space> :
+
+" Pane selection
+" <Ctrl> + hjkl moves the focus of panes much like the cursors move
+map <C-j> <C-W>j
+map <C-h> <C-W>h
+map <C-k> <C-W>k
+map <C-l> <C-W>l
 
 
 " Quicksave command
