@@ -32,6 +32,13 @@ nnoremap f za
 " Remap space to command prompt ie ':'
 noremap <space> :
 
+" Pane Creation <Ctrl+w> + | OR + _
+map <C-w>_ <C-w>s
+map <C-w>\| <C-w>v
+
+" Pane destruction Ctrl X
+map <C-x> <C-w>c 
+
 " Pane selection
 " <Ctrl> + hjkl moves the focus of panes much like the cursors move
 map <C-j> <C-W>j

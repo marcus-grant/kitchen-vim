@@ -28,6 +28,9 @@ My fully featured vim configuration
 - [ ] NerdCommander
 - [ ] NERDtree
 - [ ] syntastic
+- [ ] vim-fugitive
+- [ ] vim-virtualenv
+- [ ] targets.vim
 - [ ] [PlatformIO](http://docs.platformio.org/en/latest/ide/vim.html)
 - [ ] some powerline plugin with at least file, git, env
 - [ ] Better tmux integration
