@@ -31,7 +31,13 @@ My fully featured vim configuration
 - [ ] vim-fugitive
 - [ ] vim-virtualenv
 - [ ] targets.vim
+- [ ] vimux & check [these configs](https://blog.bugsnag.com/tmux-and-vim/)
 - [ ] [PlatformIO](http://docs.platformio.org/en/latest/ide/vim.html)
 - [ ] some powerline plugin with at least file, git, env
 - [ ] Better tmux integration
 - [ ] Better Jupyter integration
+- [ ] [This guide has good stuff](https://teamgaslight.com/blog/vim-plus-tmux-a-perfect-match)
+- [ ] [i3-vim-syntax-highlighter](https://github.com/PotatoesMaster/i3-vim-syntax)
+- [ ] [i3-vim-focus-integration](https://github.com/jwilm/i3-vim-focus)*plus it's a rust program*
+- [ ] [vim-i3wm-tmux-navigator](https://github.com/fogine/vim-i3wm-tmux-navigator)
+- [ ] [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
