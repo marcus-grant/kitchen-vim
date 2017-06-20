@@ -8,6 +8,11 @@ set tabstop=4
 set shiftwidth=4
 " add 4 spaces when pressing tab
 set expandtab
+set autoindent
+set cindent
+"autocmd FileType python setlocal foldmethod=indent smartindent shiftwidth=4 ts=4 cinwords=if,elif,else,for,while,try,except,finally,finally,def,class
+
+
 
 " Mouse & Backspace
 "
