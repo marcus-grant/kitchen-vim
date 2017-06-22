@@ -13,6 +13,9 @@ Plugin 'tmhedberg/SimpylFold'
 " https://github.com/itchyny/lightline.vim
 Plugin 'itchyny/lightline.vim'
 
+"" Bash-Support - Bash IDE plugin
+"" https://github.com/vim-scripts/bash-support.vim
+Plugin 'vim-scripts/bash-support.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
@@ -31,3 +34,17 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+"
+"
+" Extra options that are plugin specific
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"
+" bash-support.vim
+" this particular line enables filetype plugin detection to be used by plugins
+filetype plugin on
+" TODO: These below autoheader values aren't being added automatically
+" NOTE: when listing the global variable inside vim using echo g:BASH_Email
+" it lists the correct value.
+let g:BASH_AuthorName   = 'John Doe'
+let g:BASH_Email        = 'john.doe@loremipsum.com'
+let g:BASH_Company      = 'Lorem Ipsum Inc.'
