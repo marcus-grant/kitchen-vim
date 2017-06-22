@@ -30,6 +30,7 @@ noremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
 
+
 " Remap za for toggling a fold to '+'
 " NOTE still deciding best single key for folding
 nnoremap f za
@@ -75,3 +76,7 @@ vnoremap <Leader>s :sort<CR>
 " Push/Pull indentation levels by one by double tapping the sideways carets
 vnoremap < <gv	" better indentation
 vnoremap > >gv	" better UN-indentation
+
+" Autocomplete for recognizable shells
+set wildmode=longest,list,full
+set wildmenu
