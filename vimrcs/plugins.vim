@@ -17,6 +17,13 @@ Plugin 'itchyny/lightline.vim'
 "" https://github.com/vim-scripts/bash-support.vim
 Plugin 'vim-scripts/bash-support.vim'
 
+"" vim-markdown - A pretty sane fork of vim-markdown
+"" https://github.com/gabrielelana/vim-markdown
+Plugin 'gabrielelana/vim-markdown'
+
+
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,6 +52,6 @@ filetype plugin on
 " TODO: These below autoheader values aren't being added automatically
 " NOTE: when listing the global variable inside vim using echo g:BASH_Email
 " it lists the correct value.
-let g:BASH_AuthorName   = 'John Doe'
-let g:BASH_Email        = 'john.doe@loremipsum.com'
-let g:BASH_Company      = 'Lorem Ipsum Inc.'
+let g:BASH_AuthorName   = 'Marcus Grant'
+let g:BASH_Email        = 'marcus.grant@patternbuffer.io'
+let g:BASH_Company      = 'Applied Value Group'
