@@ -21,8 +21,10 @@ Plugin 'vim-scripts/bash-support.vim'
 "" https://github.com/gabrielelana/vim-markdown
 Plugin 'gabrielelana/vim-markdown'
 
-
-
+""""""""" Removed, too damn tough to get dependencies right
+"" YouCompleteMe - A HUGE autocomplete engine
+"" https://github.com/Valloric/YouCompleteMe#full-installation-guide
+"" Plugin 'Valloric/YouCompleteMe'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
