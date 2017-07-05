@@ -55,3 +55,16 @@ filetype plugin on
 let g:BASH_AuthorName   = 'Marcus Grant'
 let g:BASH_Email        = 'marcus.grant@patternbuffer.io'
 let g:BASH_Company      = 'Applied Value Group'
+
+
+"" Vim-markdown by gabriele lana
+"" Extra configs based on plugin
+let g:markdown_include_jekyll_support = 0 " turn off jekyll support, jekyll?
+"let g:markdown_enable_folding = 1 " enable md folding: TODO: Could be slow
+" TODO: This could be a PITA bc there's default mappings, enable for now
+let g:markdown_enable_mappings = 1 " Default is to have default map for plug
+let g:markdown_spell_checking = 1 " Spell check, default is on
+let g:markdown_enable_input_abreviations = 0 " Emoticons and punctuation abrev
+" TODO: Default above is on, try it sometime
+let g:markdown_enable_conceal = 0 " Default is on, conceals markup symbols
+
