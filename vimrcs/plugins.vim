@@ -69,4 +69,4 @@ let g:markdown_spell_checking = 1 " Spell check, default is on
 let g:markdown_enable_input_abreviations = 0 " Emoticons and punctuation abrev
 " TODO: Default above is on, try it sometime
 let g:markdown_enable_conceal = 0 " Default is on, conceals markup symbols
-
+let g:markdown_mapping_switch_status = '<Leader>s " Change default switch status to free up spacebar
