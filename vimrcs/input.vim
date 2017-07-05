@@ -33,7 +33,8 @@ inoremap <C-n> :nohl<CR>
 
 " Remap za for toggling a fold to '+'
 " NOTE still deciding best single key for folding
-nnoremap f za
+" NOTE changed back to default of za, 'f' is too useful as a motion command
+"nnoremap f za
 
 " Remap space to command prompt ie ':'
 noremap <space> :
