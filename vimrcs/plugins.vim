@@ -21,6 +21,13 @@ Plugin 'vim-scripts/bash-support.vim'
 "" https://github.com/gabrielelana/vim-markdown
 Plugin 'gabrielelana/vim-markdown'
 
+" Disabled for now, too complicated, bad documentation, don't have infinite
+" time to setup.
+"" jaxbot/browserlink.vim
+"" https://github.com/jaxbot/browserlink.vim
+"" Series of vim stuff to create a live preview of web based code
+" Plugin 'jaxbot/browserlink.vim'
+
 """"""""" Removed, too damn tough to get dependencies right
 "" YouCompleteMe - A HUGE autocomplete engine
 "" https://github.com/Valloric/YouCompleteMe#full-installation-guide
