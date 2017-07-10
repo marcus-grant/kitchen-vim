@@ -8,11 +8,18 @@ My fully featured vim configuration
 - [x] main.vim that sources different `*.vim` files for different purposes
 - [x] colors folder with colorscheme files
 - [x] Folding, including SimplyFold for Python and map f key as fold toggle
+- [x] basic.vim
+- [x] appearance.vim
+- [x] a plugin list that works with whatever plugin manager
+- [ ] [Gist](https://github.com/mattn/gist-vim)
+- [ ] NerdCommander
+- [x] NERDtree
+- [ ] syntastic
+- [ ] vim-fugitive
 - [ ] Basic remaps and configs from [here](http://marcgg.com/blog/2016/03/01/vimrc-example/)
-- [ ] basic.vim
-- [ ] appearance.vim
-- [ ] keymap.vim
-- [ ] a plugin list that works with whatever plugin manager
+- [ ] Vim autoformatter [here](https://github.com/chiel92/vim-autoformat)
+- [ ] Speed up markdown editing
+- [ ] 
 - [ ] code completion plugin
 - [ ] autocomplete for Python
 - [ ] autocomplete for BASH
@@ -24,11 +31,6 @@ My fully featured vim configuration
 - [ ] autocomplete for Django
 - [ ] autocomplete for Node
 - [ ] autocomplete for React
-- [ ] [Gist](https://github.com/mattn/gist-vim)
-- [ ] NerdCommander
-- [ ] NERDtree
-- [ ] syntastic
-- [ ] vim-fugitive
 - [ ] vim-virtualenv
 - [ ] targets.vim
 - [ ] vimux & check [these configs](https://blog.bugsnag.com/tmux-and-vim/)
