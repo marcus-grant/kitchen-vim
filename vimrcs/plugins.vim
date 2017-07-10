@@ -38,6 +38,11 @@ Plugin 'gabrielelana/vim-markdown'
 "" Creates visual indent rulers to make it easier to view indent levels
 Plugin 'nathanaelkane/vim-indent-guides'
 
+"" Emmmet
+"" Great tool to speed up html/css dev
+"" https://github.com/mattn/emmet-vim
+Plugin 'mattn/emmet-vim'
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -93,3 +98,18 @@ let g:indent_guides_enable_on_vim_startup = 1
 let indent_guides_guide_size = 1
 hi IndentGuidesOdd ctermbg=235
 hi IndentGuidesEven ctermbg=236
+
+
+"" Emmet
+" enable only for html & css
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+
+" Only normal mode functionality
+let g:user_emmet_mode='n'
+" Uncomment to allow all modes
+"let g:user_emmet_mode='a'
+" How to add snippets
+" let g:user_emmet_settings =
+" webapi#json#decode(join(readfile(expand('~/.snippets_custom.json')), "\n"))
+" Change the path to whatever you need
