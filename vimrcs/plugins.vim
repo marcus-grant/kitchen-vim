@@ -26,6 +26,13 @@ Plugin 'gabrielelana/vim-markdown'
 "" https://github.com/Valloric/YouCompleteMe#full-installation-guide
 "" Plugin 'Valloric/YouCompleteMe'
 
+"" vim-indent-guides
+"" https://github.com/nathanaelkane/vim-indent-guides
+"" Creates visual indent rulers to make it easier to view indent levels
+Plugin 'nathanaelkane/vim-indent-guides'
+
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -70,3 +77,12 @@ let g:markdown_enable_input_abreviations = 0 " Emoticons and punctuation abrev
 " TODO: Default above is on, try it sometime
 let g:markdown_enable_conceal = 0 " Default is on, conceals markup symbols
 let g:markdown_mapping_switch_status = '<Leader>s' " Change default switch status to free up spacebar
+
+
+"" vim-indent
+" Have indents on by default
+let indent_guides_auto_colors = 0
+let g:indent_guides_enable_on_vim_startup = 1
+let indent_guides_guide_size = 1
+hi IndentGuidesOdd ctermbg=235
+hi IndentGuidesEven ctermbg=236
