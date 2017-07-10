@@ -15,3 +15,5 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=2
 
+" HTML Specific Configs
+autocmd FileType html,htmldjango,xhtml,haml setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=0
