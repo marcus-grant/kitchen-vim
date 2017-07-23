@@ -54,7 +54,10 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
 
-
+"" neocomplete
+"" Buffer and file cache based autocompletion
+"" https://github.com/Shougo/neocomplete.vim
+Plugin 'Shougo/neocomplete.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
@@ -143,6 +146,16 @@ set foldmethod=syntax
 "" vim-jsx
 " enforce vim-jsx on all js file extensions
 let g:jsx_ext_required = 0
+
+
+"" neocomplete
+" enabled at startup
+let g:neocomplete#enable_at_startup = 1
+" smart case
+let g:neocomplete#enable_smart_case = 1
+" minimum search length for syntax
+let g:neocomplete#sources#syntax#min_keyword_length = 3
+
 
 
 
