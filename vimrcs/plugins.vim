@@ -43,6 +43,17 @@ Plugin 'nathanaelkane/vim-indent-guides'
 "" https://github.com/mattn/emmet-vim
 Plugin 'mattn/emmet-vim'
 
+"" vim-javascript
+"" Better syntax highlighting and indents for all JS files
+"" https://github.com/pangloss/vim-javascript
+Plugin 'pangloss/vim-javascript'
+
+"" vim-jsx
+"" A syntaxt highlighting, indenter and transformer for React and JSX
+"" https://github.com/mxw/vim-jsx
+Plugin 'mxw/vim-jsx'
+
+
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -101,15 +112,37 @@ hi IndentGuidesEven ctermbg=236
 
 
 "" Emmet
-" enable only for html & css
 let g:user_emmet_install_global = 0
-autocmd FileType html,css EmmetInstall
-
+" to enable working on jsx files saved as .js
+let g:user_emmet_settings = {
+\  'javascript' : {
+\      'extends' : 'jsx',
+\  },
+\}
+" enable only for html, css, js with jsx
+autocmd FileType html,css,javascript.jsx,javascript EmmetInstall
 " Only normal mode functionality
-let g:user_emmet_mode='n'
+let g:user_emmet_mode='a'
 " Uncomment to allow all modes
 "let g:user_emmet_mode='a'
 " How to add snippets
 " let g:user_emmet_settings =
 " webapi#json#decode(join(readfile(expand('~/.snippets_custom.json')), "\n"))
 " Change the path to whatever you need
+
+
+"" vim-javascript
+" enable syntax highlighting for JSDocs & NGDocs
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+" syntax highlighting for flow
+let g:javascript_plugin_flow = 1
+" folding based on the plugins syntax file
+set foldmethod=syntax
+
+"" vim-jsx
+" enforce vim-jsx on all js file extensions
+let g:jsx_ext_required = 0
+
+
+
