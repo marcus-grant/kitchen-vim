@@ -46,7 +46,9 @@ Plugin 'mattn/emmet-vim'
 "" vim-javascript
 "" Better syntax highlighting and indents for all JS files
 "" https://github.com/pangloss/vim-javascript
-Plugin 'pangloss/vim-javascript'
+"Plugin 'pangloss/vim-javascript'
+"""" USING improved version instead
+
 
 "" vim-jsx
 "" A syntaxt highlighting, indenter and transformer for React and JSX
@@ -58,6 +60,11 @@ Plugin 'mxw/vim-jsx'
 "" Buffer and file cache based autocompletion
 "" https://github.com/Shougo/neocomplete.vim
 Plugin 'Shougo/neocomplete.vim'
+
+
+"" improved vim-jsx
+Plugin 'chemzqm/vim-jsx-improve'
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " All of your Plugins must be added before the following line
@@ -136,12 +143,12 @@ let g:user_emmet_mode='a'
 
 "" vim-javascript
 " enable syntax highlighting for JSDocs & NGDocs
-let g:javascript_plugin_jsdoc = 1
-let g:javascript_plugin_ngdoc = 1
+"let g:javascript_plugin_jsdoc = 1
+"let g:javascript_plugin_ngdoc = 1
 " syntax highlighting for flow
-let g:javascript_plugin_flow = 1
+"let g:javascript_plugin_flow = 1
 " folding based on the plugins syntax file
-set foldmethod=syntax
+"set foldmethod=syntax
 
 "" vim-jsx
 " enforce vim-jsx on all js file extensions
