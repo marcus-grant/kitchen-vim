@@ -28,6 +28,7 @@ My fully featured vim configuration
 - [ ] autocomplete for C/C++/Arduino
 - [ ] autocomplete for HTML/CSS
 - [ ] autocomplete for JS
+- [ ] autocomplete for React
 - [ ] autocomplete for Django
 - [ ] autocomplete for Node
 - [ ] autocomplete for React
