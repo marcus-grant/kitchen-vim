@@ -16,4 +16,4 @@ set nofoldenable
 set foldlevel=2
 
 " HTML Specific Configs
-autocmd FileType html,htmldjango,xhtml,haml,js,jsx,javascript.jsx setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=0
+autocmd FileType html,htmldjango,xhtml,haml,javascript,jsx,javascript.jsx setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=0
